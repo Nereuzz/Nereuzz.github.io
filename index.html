@@ -1,7 +1,7 @@
 <html>
   <body>
     <script>
-      function get_friends(path) {
+      function get_friends() {
 	  var txt = '';
 	  var xmlhttp = new XMLHttpRequest();
 	  xmlhttp.onreadystatechange = function(){
@@ -16,6 +16,6 @@
 
     <p id="fest"></p>
 
-    <script>document.getElementById("fest").innerHTML = get_friends("./venner.txt")</script>
+    <script>document.getElementById("fest").innerHTML = get_friends()</script>
 
 </html>
