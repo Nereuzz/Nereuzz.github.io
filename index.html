@@ -7,6 +7,7 @@
 	  xmlhttp.onreadystatechange = function(){
 	      if(xmlhttp.status == 200 && xmlhttp.readyState == 4){
 		  txt = xmlhttp.responseText;
+		  return txt
 	      }
 	  };
 	  xmlhttp.open("GET","venner.txt",true);
