@@ -2,8 +2,15 @@
   <body>
     <script>
       function get_friends(path) {
-  	  fr = new FileReader();
-	  fr.readAsText(path)
+	  var txt = '';
+	  var xmlhttp = new XMLHttpRequest();
+	  xmlhttp.onreadystatechange = function(){
+	      if(xmlhttp.status == 200 && xmlhttp.readyState == 4){
+		  txt = xmlhttp.responseText;
+	      }
+	  };
+	  xmlhttp.open("GET","venner.txt",true);
+	  xmlhttp.send();
       } 
     </script>
 
