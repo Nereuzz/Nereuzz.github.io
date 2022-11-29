@@ -33,7 +33,7 @@ var padding = {top:20, right:40, bottom:0, left:0},
     color = d3.scale.category20();
 
 var data = [
-    {"label":"x84 Assembly",  "value":1,  "question":"Morgendagens sprog: x84 Assembly"},
+    {"label":"x86 Assembly",  "value":1,  "question":"Morgendagens sprog: x86 Assembly"},
     {"label":"Prolog",  "value":1,  "question":"Morgendagens sprog: Prolog"},
     {"label":"ML/SML/MoscowML",  "value":1,  "question":"Morgendagens sprog: ML/SML/MoscowML"},
     {"label":"COBOL",  "value":1,  "question":"Morgendagens sprog: COBOL"},
