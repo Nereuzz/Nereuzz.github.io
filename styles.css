@@ -8,6 +8,15 @@
     width: 50%;    
 }
 
+.language-list {
+    left: 100px;
+    float: left;
+    text-align: left;
+    width: 49%;
+    border: 1px solid;
+    height: 40%;
+}
+
 .wheels-div {
     float: left;
     width: 50%;
