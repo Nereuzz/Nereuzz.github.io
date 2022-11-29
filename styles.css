@@ -21,3 +21,20 @@
     width: 50%;
     height: 50%;
 }
+
+.language-calender {
+    float: left;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    left: 12%;
+    top: 5em;
+}
+
+.language-calender table, th, td {
+    border: 1px solid black;
+}
+
+.language-calender td {
+    width: 100px;
+}

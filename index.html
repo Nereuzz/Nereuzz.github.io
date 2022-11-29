@@ -1,6 +1,33 @@
+<!DOCTYPE html>
+<!--
+    
+MIT License
+
+Copyright (c) 2017 Jeremy Rue
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+  -->
+
 <html>
   <head>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="wheel.css">
   </head>
   <body>
     <div class="wrapper">
@@ -26,6 +53,8 @@
 	  man har tid til at installerer en oversætter (Hvis man vil prøv-hårdt og være først med
 	  en løsning - Personligt vil jeg nok være langsom (; )
 	</p>
+
+	<p style="color:red"><b>Jeg vil rulle hjulet hver dag et sted mellem klokken 16:30 og 22:00 - Interesserede vil få mulighed at se med på et live-stream via Discord</b></p>
 	
 	<p>
 	  Der vil være 2 hjul: Ét hjul som er sprog for den første halvdel af december, og et andet
@@ -60,7 +89,7 @@
 	    <li>oCaml</li>
 	    <li>Intercal</li>
 	    <li>Excel (Or other spreadheet application you see fit)</li>
-	    <li>emacslisp (Convince me if you want some VIM language sheit :P )</li>
+	    <li>emacslisp (or wierd VIM equivalent)</li>
 	    <li>Hare</li>
 	    <li>F# (Keep it functional - No funky dotnet stuff :P)</li>
 	    <li>Erlang</li>
@@ -88,14 +117,35 @@
       </div>
 
       <div class="wheels-div">
-	<p>test</p>
-      </div>
-      
-      <div class="wheels-div">
-      	<p>test</p>
+	<div id="chart"></div>
+	<div id="question"><h1></h1></div>
       </div>
       
     </div>
+
+    <div class="language-calender">
+      <table>
+	<tr>
+	  <th>Dato</th>
+	  <th>Sprog</th>
+	</tr>
+	<tr>
+	  <td>1. Dec</td>
+	  <td></td>
+	</tr>
+	<tr>
+	  <td>2. Dec</td>
+	  <td></td>
+	</tr>
+	<tr>
+	  <td>3. Dec</td>
+	  <td></td>
+	</tr>
+      </table> 
+      </div>
+
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="wheel.js"></script>
   </body>
 
 </html>
