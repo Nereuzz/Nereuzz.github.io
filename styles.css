@@ -1,0 +1,15 @@
+.wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+.content-div {
+    float: left;
+    width: 50%;    
+}
+
+.wheels-div {
+    float: left;
+    width: 50%;
+    height: 50%;
+}
