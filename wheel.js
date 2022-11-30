@@ -39,7 +39,7 @@ var data = [
     {"label":"Scratch",  "value":1,  "question":"Morgendagens sprog: Scratch"},
     {"label":"awk",  "value":1,  "question":"Morgendagens sprog: awk"},
     {"label":"oCaml",  "value":1,  "question":"Morgendagens sprog: oCaml"},
-    {"label":"Intercal",  "value":1,  "question":"Morgendagens sprog: Intercal"},
+    {"label":"ML, SML, MoscowML",  "value":1,  "question":"Morgendagens sprog: ML, SML, MoscowML"},
     {"label":"LUA",  "value":1,  "question":"Morgendagens sprog: LUA"},
     {"label":"emacslisp/vimscript",  "value":1,  "question":"Morgendagens sprog: eMacsLisp/VimScript"},
     {"label":"Hare", "value":1, "question":"Morgendagens sprog: Hare"},
@@ -197,3 +197,10 @@ function getRandomNumbers(){
 
     return array;
 }
+
+
+(function () {
+    'use strict';
+    var sample = document.getElementById("background-music");
+    sample.play();
+}());

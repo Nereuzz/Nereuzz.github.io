@@ -38,3 +38,7 @@
 .language-calender td {
     width: 100px;
 }
+
+#background-music {
+    display: none
+}
