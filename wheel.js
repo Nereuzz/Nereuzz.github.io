@@ -33,7 +33,6 @@ var padding = {top:20, right:40, bottom:0, left:0},
     color = d3.scale.category20();
 
 var data = [
-    {"label":"x86 Assembly",  "value":1,  "question":"Morgendagens sprog: x86 Assembly"},
     {"label":"Prolog",  "value":1,  "question":"Morgendagens sprog: Prolog"},
     {"label":"Futhark",  "value":1,  "question":"Morgendagens sprog: Futhark"},
     {"label":"Scratch",  "value":1,  "question":"Morgendagens sprog: Scratch"},
