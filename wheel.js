@@ -42,7 +42,6 @@ var data = [
     {"label":"LUA",  "value":1,  "question":"Morgendagens sprog: LUA"},
     {"label":"emacslisp/vimscript",  "value":1,  "question":"Morgendagens sprog: eMacsLisp/VimScript"},
     {"label":"Hare", "value":1, "question":"Morgendagens sprog: Hare"},
-    {"label":"Erlang", "value":1, "question":"Morgendagens sprog: Erlang"},
 ];
 
 var dataLate = [
