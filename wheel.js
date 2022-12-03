@@ -40,7 +40,6 @@ var data = [
     {"label":"oCaml",  "value":1,  "question":"Morgendagens sprog: oCaml"},
     {"label":"ML, SML, MoscowML",  "value":1,  "question":"Morgendagens sprog: ML, SML, MoscowML"},
     {"label":"LUA",  "value":1,  "question":"Morgendagens sprog: LUA"},
-    {"label":"emacslisp/vimscript",  "value":1,  "question":"Morgendagens sprog: eMacsLisp/VimScript"},
     {"label":"Hare", "value":1, "question":"Morgendagens sprog: Hare"},
 ];
 
