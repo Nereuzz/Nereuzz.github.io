@@ -35,7 +35,6 @@ var padding = {top:20, right:40, bottom:0, left:0},
 var data = [
     {"label":"Scratch",  "value":1,  "question":"Morgendagens sprog: Scratch"},
     {"label":"awk",  "value":1,  "question":"Morgendagens sprog: awk"},
-    {"label":"oCaml",  "value":1,  "question":"Morgendagens sprog: oCaml"},
     {"label":"ML, SML, MoscowML",  "value":1,  "question":"Morgendagens sprog: ML, SML, MoscowML"},
     {"label":"LUA",  "value":1,  "question":"Morgendagens sprog: LUA"},
     {"label":"Hare", "value":1, "question":"Morgendagens sprog: Hare"},
