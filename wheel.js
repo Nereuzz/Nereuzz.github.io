@@ -34,7 +34,6 @@ var padding = {top:20, right:40, bottom:0, left:0},
 
 var data = [
     {"label":"ML, SML, MoscowML",  "value":1,  "question":"Morgendagens sprog: ML, SML, MoscowML"},
-    {"label":"Hare", "value":1, "question":"Morgendagens sprog: Hare"},
 ];
 
 var dataLate = [
