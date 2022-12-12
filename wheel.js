@@ -33,7 +33,7 @@ var padding = {top:20, right:40, bottom:0, left:0},
     color = d3.scale.category20();
 
 var data = [
-    {"label":"ML, SML, MoscowML",  "value":1,  "question":"Morgendagens sprog: ML, SML, MoscowML"},
+    {"label": "Update me!",  "value":1,  "question":"Morgendagens sprog: ML, SML, MoscowML"},
 ];
 
 var dataLate = [
