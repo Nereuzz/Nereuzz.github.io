@@ -33,14 +33,18 @@ var padding = {top:20, right:40, bottom:0, left:0},
     color = d3.scale.category20();
 
 var data = [
-    {"label": "Update me!",  "value":1,  "question":"Morgendagens sprog: ML, SML, MoscowML"},
-];
-
-var dataLate = [
-    {"label":"",  "value":1,  "question":"Morgendagens sprog: "},
-    {"label":"", "value":1, "question":"Morgendagens sprog: "},
-    {"label":"", "value":1, "question":"Morgendagens sprog: "},
-    {"label":"", "value":1, "question":"Morgendagens sprog: "},
+    {"label":"C",  "value":1,  "question":"Morgendagens sprog: C"},
+    {"label":"Clojure", "value":1, "question":"Morgendagens sprog: Clojure"},
+    {"label":"c#", "value":1, "question":"Morgendagens sprog: C#"},
+    {"label":"Java", "value":1, "question":"Morgendagens sprog: Java"},
+    {"label":"Haskell",  "value":1,  "question":"Morgendagens sprog: Haskell"},
+    {"label":"Rust",  "value":1,  "question":"Morgendagens sprog: Rust"},
+    {"label":"Python",  "value":1,  "question":"Morgendagens sprog: Python"},
+    {"label":"Javascript",  "value":1,  "question":"Morgendagens sprog: Javascript"},
+    {"label":"Ruby",  "value":1,  "question":"Morgendagens sprog: Ruby"},
+    {"label":"Perl",  "value":1,  "question":"Morgendagens sprog: Perl"},
+    {"label":"Kotlin",  "value":1,  "question":"Morgendagens sprog: Kotlin"},
+    {"label":"Go",  "value":1,  "question":"Morgendagens sprog: Go"},
 ];
 
 
