@@ -41,7 +41,6 @@ var data = [
     {"label":"Rust",  "value":1,  "question":"Morgendagens sprog: Rust"},
     {"label":"Python",  "value":1,  "question":"Morgendagens sprog: Python"},
     {"label":"Javascript",  "value":1,  "question":"Morgendagens sprog: Javascript"},
-    {"label":"Ruby",  "value":1,  "question":"Morgendagens sprog: Ruby"},
     {"label":"Perl",  "value":1,  "question":"Morgendagens sprog: Perl"},
     {"label":"Kotlin",  "value":1,  "question":"Morgendagens sprog: Kotlin"},
     {"label":"Go",  "value":1,  "question":"Morgendagens sprog: Go"},
