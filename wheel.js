@@ -35,7 +35,6 @@ var padding = {top:20, right:40, bottom:0, left:0},
 var data = [
     {"label":"C",  "value":1,  "question":"Morgendagens sprog: C"},
     {"label":"Clojure", "value":1, "question":"Morgendagens sprog: Clojure"},
-    {"label":"c#", "value":1, "question":"Morgendagens sprog: C#"},
     {"label":"Java", "value":1, "question":"Morgendagens sprog: Java"},
     {"label":"Haskell",  "value":1,  "question":"Morgendagens sprog: Haskell"},
     {"label":"Rust",  "value":1,  "question":"Morgendagens sprog: Rust"},
