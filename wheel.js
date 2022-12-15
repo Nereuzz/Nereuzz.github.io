@@ -42,7 +42,6 @@ var data = [
     {"label":"Javascript",  "value":1,  "question":"Morgendagens sprog: Javascript"},
     {"label":"Perl",  "value":1,  "question":"Morgendagens sprog: Perl"},
     {"label":"Kotlin",  "value":1,  "question":"Morgendagens sprog: Kotlin"},
-    {"label":"Go",  "value":1,  "question":"Morgendagens sprog: Go"},
 ];
 
 
